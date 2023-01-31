@@ -6,7 +6,7 @@ In this example we assume we use a basic description of London Metro.
 <br>
 Implementation requires *prolog* to be installed.
 
-# Execution example
+## Execution example
 ```
 ❯ swipl -s london_metro.pl
 
@@ -32,5 +32,4 @@ Path = [camden_town, get_line(northern_city), bank, get_line(subway_between_bank
 
 ?- routes_3(List).
 List = [(aldwych, angel), (aldwych, borough), (aldwych, london_bridge), (aldwych, old_street), (angel, aldwych), (angel, kensington_olympia), (borough, aldwych), (borough, kensington_olympia), (..., ...)|...].
-
 ```
