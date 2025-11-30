@@ -7,8 +7,8 @@ In this example we assume we use a basic description of London Metro.
 Implementation requires *prolog* to be installed.
 
 ## Execution example
-```
-❯ swipl -s london_metro.pl
+```shell
+$ swipl -s london_metro.pl
 
 ?- connected(cannon_street, monument, Line).
 Line = circle ;
